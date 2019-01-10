@@ -1,0 +1,7 @@
+<igx-grid 
+  [data]="localData" [primaryKey]="'id'"
+  [autoGenerate]="false" width="700px" height="500px">
+    <igx-column field="id" header="id"></igx-column>
+    <igx-column field="name" header="名前" [editable]="true"></igx-column>
+    <igx-column field="location" header="場所" [editable]="true"></igx-column>
+</igx-grid>
